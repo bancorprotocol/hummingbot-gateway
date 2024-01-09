@@ -43,7 +43,7 @@ import { KujiraCLOB } from '../connectors/kujira/kujira';
 import { PancakeswapLP } from '../connectors/pancakeswap/pancakeswap.lp';
 import { XRPLCLOB } from '../connectors/xrpl/xrpl';
 import { Carbonamm } from '../connectors/carbon/carbonAMM';
-import { CarbonCLOB } from '../connectors/carbon/carbon';
+import { CarbonCLOB } from '../connectors/carbon/carbonCLOB';
 
 export type ChainUnion =
   | Algorand

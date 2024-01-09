@@ -9,7 +9,7 @@ import { gatewayApp } from '../../../src/app';
 import { patch, unpatch } from '../../../test/services/patch';
 import { Ethereum } from '../../../src/chains/ethereum/ethereum';
 import { EVMTxBroadcaster } from '../../../src/chains/ethereum/evm.broadcaster';
-import { CarbonCLOB } from '../../../src/connectors/carbon/carbon';
+import { CarbonCLOB } from '../../../src/connectors/carbon/carbonCLOB';
 import { encodeStrategyId } from '../../../src/connectors/carbon/carbon.utils';
 import { patchEVMNonceManager } from '../../../test/evm.nonce.mock';
 
